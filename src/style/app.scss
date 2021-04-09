@@ -1,0 +1,54 @@
+/*
+ * 全局样式
+ */
+
+// div {
+//   overflow: hidden;
+// }
+
+// flex布局
+.flex {
+  display: flex;
+
+  &[flex~="full-screen"] {
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  &[flex~="column"] {
+    flex-direction: column;
+  }
+
+  &[flex~="center"] {
+    justify-content: center;
+    align-items: center;
+  }
+
+  &[flex~="_center"] {
+    justify-content: center;
+  }
+
+  &[flex~="align-items_center"] {
+    align-items: center;
+  }
+
+  & > [flex~="@1"],
+  & > [flex^="1"] {
+    flex: 1;
+    overflow: hidden;
+  }
+
+  & > [flex~="@1"][flex~="@scroll"],
+  & > [flex^="1-scroll"] {
+    overflow-y: auto;
+  }
+}
+
+.tag {
+  margin: 3px;
+  font-size: 2vh !important;
+}
+
+.price-text {
+  color: #f56c6c;
+}

@@ -1,0 +1,60 @@
+.el-form-item {
+  margin-bottom: 0px;
+}
+
+.pay-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.total-price {
+  margin: 10px 0;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  color: #909399;
+}
+
+.pay-btn {
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+.count {
+  color: #f56c6c;
+}
+
+.address-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap {
+  margin: 10px 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name, .address {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.address-wrap::after {
+  height: 2px;
+  background: -webkit-repeating-linear-gradient(135deg, #ff6c6c 0, #ff6c6c 20%, transparent 0, transparent 25%, #1989fa 0, #1989fa 45%, transparent 0, transparent 50%);
+  background: repeating-linear-gradient(-45deg, #ff6c6c 0, #ff6c6c 20%, transparent 0, transparent 25%, #1989fa 0, #1989fa 45%, transparent 0, transparent 50%);
+  background-size: 80px;
+  content: "";
+}
+
+.options {
+  margin: 0 10px 10px;
+}
+
+/*# sourceMappingURL=cart.css.map */

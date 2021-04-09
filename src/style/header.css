@@ -1,0 +1,26 @@
+.simple-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  line-height: 50px;
+  padding: 0 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background: #fff;
+}
+.simple-header .simple-header-name {
+  font-size: 16px;
+}
+.simple-header .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+.simple-header .icon_n {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=header.css.map */

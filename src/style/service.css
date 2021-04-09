@@ -1,0 +1,89 @@
+.body {
+  position: unset;
+  left: 0;
+  top: 0;
+  padding: 0 15px;
+  overflow: auto;
+}
+
+.tab {
+  margin: 2vw 0;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.tab {
+  margin: 2vw 0;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.tab-item {
+  color: #353535;
+  text-align: center;
+  line-height: 2.6;
+  color: #878787;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.swiper {
+  height: 26vw;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px -4px rgba(106, 182, 252, 0.15);
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-sb {
+  justify-content: space-between;
+}
+
+.cover-item {
+  margin-bottom: 15px;
+  width: 28vw;
+  height: 28vw;
+  border-radius: 15px;
+  opacity: 0.95;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f2f6fc;
+}
+
+.theme-bg {
+  background: #6ab6fc;
+}
+
+[hoverclass] {
+  transition: background 0.3s;
+}
+
+.tab-item:nth-child(2),
+.tab-item-active {
+  transform: scale(1.2);
+  font-weight: bold;
+  color: #3a3a3a;
+}
+
+.icon {
+  font-size: 25px;
+  margin: 5px;
+}
+
+.popular {
+  overflow: scroll;
+}
+
+/*# sourceMappingURL=service.css.map */

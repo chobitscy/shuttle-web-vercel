@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/*
+ * 全局样式
+ */
+.flex {
+  display: flex;
+}
+.flex[flex~=full-screen] {
+  height: 100vh;
+  overflow: hidden;
+}
+.flex[flex~=column] {
+  flex-direction: column;
+}
+.flex[flex~=center] {
+  justify-content: center;
+  align-items: center;
+}
+.flex[flex~=_center] {
+  justify-content: center;
+}
+.flex[flex~=align-items_center] {
+  align-items: center;
+}
+.flex > [flex~="@1"], .flex > [flex^="1"] {
+  flex: 1;
+  overflow: hidden;
+}
+.flex > [flex~="@1"][flex~="@scroll"], .flex > [flex^="1-scroll"] {
+  overflow-y: auto;
+}
+
+.tag {
+  margin: 3px;
+  font-size: 2vh !important;
+}
+
+.price-text {
+  color: #f56c6c;
+}
+
+/*# sourceMappingURL=app.css.map */

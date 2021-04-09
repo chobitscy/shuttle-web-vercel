@@ -1,0 +1,133 @@
+@media screen and (max-width: 750px) {
+    .el-message-box {
+        width: 70% !important;
+    }
+}
+
+.el-message-box__message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.el-message-box__btns {
+    text-align: center !important;
+}
+
+.el-message-box__title {
+    text-align: center;
+}
+
+.el-message-box__close {
+    display: none !important;
+}
+
+.el-tabs__header {
+    margin: unset !important;
+}
+
+.mescroll {
+    position: fixed;
+    bottom: 0;
+    height: auto !important;
+}
+
+.el-message {
+    top: 0px !important;
+}
+
+.is-bottom {
+    background: white;
+}
+
+.el-upload-list {
+    width: 100%;
+}
+
+.el-table .cell {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.el-dialog__body {
+    padding: 10px 30px 10px !important;
+}
+
+.el-dialog__close {
+    display: none !important;
+}
+
+.el-dialog__footer {
+    padding: 5px 20px 20px !important;
+}
+
+.el-tag__close {
+    color: white !important;
+}
+
+.el-tabs__content {
+    height: 89% !important;
+    overflow-y: auto!important;
+}
+
+.el-tabs__content::-webkit-scrollbar{
+    width: 0 !important
+}
+
+.el-tab-pane {
+    height: 100% !important;
+}
+.el-dialog{
+    margin-top: 25vh!important;
+}
+
+@media screen and (min-width: 1080px) {
+    .all{
+        margin:0 38.5%!important;
+        background-color: #303133;
+    }
+
+    .scroll::-webkit-scrollbar {
+        width: 0 !important
+    }
+
+    .cover-item{
+        width: 98px!important;
+        height: 98px!important;
+    }
+
+    .app{
+        background-color: white;
+    }
+
+    .mescroll{
+        position: unset!important;
+    }
+
+
+    .el-tabs{
+        position: unset!important;
+    }
+
+    .receive > .el-tabs__header{
+        position: fixed!important;
+        bottom: 0!important;
+        width: 23%;
+    }
+
+    .el-dialog{
+        width: 19%!important;
+    }
+
+    .el-message-box{
+        width: 230px!important;
+    }
+
+    .el-message{
+        min-width: 23% !important;
+    }
+
+    .el-loading{
+        width: 23%!important;
+    }
+}

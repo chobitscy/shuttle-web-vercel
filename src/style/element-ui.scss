@@ -1,0 +1,21 @@
+/**
+ * 针对element-ui的优化
+ */
+
+// flex布局
+.flex {
+  &[flex~="full-screen"] {
+    &.el-tabs.el-tabs--top {
+      display: flex;
+
+      > .el-tabs__header.is-top {
+        margin-bottom: 0;
+      }
+
+      > .el-tabs__content {
+        flex: 1;
+        overflow-y: auto;
+      }
+    }
+  }
+}
